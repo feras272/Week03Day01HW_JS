@@ -38,4 +38,19 @@ console.log(getBelowTen(numbers2));
 console.log(getBelowTen(numbers3));
 
 
+// Exercise (3) ------------------------------
+console.log('Exercise (3) ------------------------------');
+
+function multiplyAllByFive(arr) {
+    let output = arr.map((element, i) => {
+        return element * 5
+    })
+    return output
+}
+
+console.log(multiplyAllByFive(numbers));
+console.log(multiplyAllByFive(numbers2));
+console.log(multiplyAllByFive(numbers3));
+
+
 
