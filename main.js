@@ -53,4 +53,19 @@ console.log(multiplyAllByFive(numbers2));
 console.log(multiplyAllByFive(numbers3));
 
 
+// Exercise (4) ------------------------------
+console.log('Exercise (4) ------------------------------');
+
+function getFifteen(arr) {
+    let output = arr.find( (element, i) => {
+        return element <= 15
+    })
+    return output
+}
+
+console.log(getFifteen(numbers));
+console.log(getFifteen(numbers2));
+console.log(getFifteen(numbers3));
+
+
 
