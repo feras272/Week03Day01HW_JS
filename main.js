@@ -68,4 +68,20 @@ console.log(getFifteen(numbers2));
 console.log(getFifteen(numbers3));
 
 
+// Exercise (5) ------------------------------
+console.log('Exercise (5) ------------------------------');
+
+function mulAllValues(arr) {
+    let newArray = []
+    arr.forEach( (element, i) => {
+        newArray.push(element * element);
+    })
+    return newArray
+}
+
+console.log(mulAllValues(numbers));
+console.log(mulAllValues(numbers2));
+console.log(mulAllValues(numbers3));
+
+
 
