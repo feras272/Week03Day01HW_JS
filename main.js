@@ -21,4 +21,21 @@ printArray(numbers2);
 printArray(numbers3);
 
 
+// Exercise (2) ------------------------------
+console.log('Exercise (2) ------------------------------');
+
+function getBelowTen(arr) {
+
+    let newArr = []
+    newArr = arr.filter(element => {
+        return element < 10
+    });
+    return newArr;
+}
+
+console.log(getBelowTen(numbers));
+console.log(getBelowTen(numbers2));
+console.log(getBelowTen(numbers3));
+
+
 
